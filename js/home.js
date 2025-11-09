@@ -1,8 +1,3 @@
-  window.addEventListener("load", function() {
-    const preloader = document.getElementById("preloader");
-    preloader.classList.add("hidden");
-    setTimeout(() => preloader.remove(), 500);
-  });
 /*************************************************
  *  DOM READY
  *************************************************/
@@ -176,4 +171,5 @@ document.addEventListener("DOMContentLoaded", () => {
         end: "bottom top"
       }
     });
+
 }
